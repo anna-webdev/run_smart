@@ -6,6 +6,7 @@
         margin: 0 auto;
         img {
             width: 100%;
+            display: block;
         }
     }
     .slick-prev, .slick-next {
@@ -24,4 +25,20 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        li {
+            button {
+                border: none;
+                border-radius: 50%;
+                background-color: grey;
+                height: 20px;
+                width: 20px;
+            }
+        }
+    }
 }
+
+
