@@ -13,10 +13,11 @@ font-family: 'Museo Sans Cyrl', sans-serif
 @import "blocks/forms";
 @import "blocks/carousel";
 @import "blocks/catalog";
+@import "blocks/comments";
 @import "blocks/media";
 
 .container {
-	position:relative;
+	position: relative;
 	max-width: 950px;
 	margin: 0 auto;
 }
