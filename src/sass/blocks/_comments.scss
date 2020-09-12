@@ -1,6 +1,9 @@
 .comments {
     min-height: 140px;
     padding-bottom: 70px;
+    .title {
+        margin-bottom: 40px;
+    }
     &__wrapper {
         margin-top: 70px;
     }

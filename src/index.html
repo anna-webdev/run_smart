@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie-edge"> 
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"> -->
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -71,7 +72,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantage_icon_2.png" alt="icon2">
+                    <img src="icons/advantage_icon_2.png" alt="icon2" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__title">Заботимся о здоровье</div>
                     <div class="advantages__descr">Мы работаем для того, 
                         чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -108,7 +109,7 @@
             </form>
         </div>
     </section>
-    <section class="carousel">
+    <div class="carousel">
        <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -124,7 +125,7 @@
            <!--  <button type="button" class="prev"><img src="img/left.png"></button>
             <button type="button" class="next"><img src="img/right.svg"></button> -->
        </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -170,12 +171,14 @@
                              <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                         </div>
                         <ul class="catalog-item__list">
-                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
-                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
-                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
-                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
-                            <a href="#" class="catalog-item__back">НАЗАД</a>
+                                <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                                <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                                <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                                <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                                <a href="#" class="catalog-item__back">НАЗАД</a>
                         </ul>
+                        
+                       
                     </div>
                     <hr>
  
@@ -381,7 +384,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="comments__wrapper">
-                <div class="comments__item">
+                <div class="comments__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/comments_img_1.png" alt="img1" class="comments__img">
                     <div class="comments__text">
                         <div class="comments__name">Ирина Иванченко</div>
@@ -394,7 +397,7 @@
                             Спасибо, RunSmart!</div>
                     </div>
                 </div>
-                <div class="comments__item">
+                <div class="comments__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/comments_img_2.png" alt="img2" class="comments__img">
                     <div class="comments__text">
                         <div class="comments__name">Иван Сёмочкин</div>
@@ -405,7 +408,7 @@
                             С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                     </div>
                 </div>
-                <div class="comments__item">
+                <div class="comments__item animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/comments_img_3.png" alt="img3" class="comments__img">
                     <div class="comments__text">
                         <div class="comments__name">Юлия Дашкина</div>
@@ -422,7 +425,7 @@
     </section>
 
     <footer class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430307459336!2d37.64507553629332!3d55.768397998257505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1599327648287!5m2!1sru!2sru" width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430307459336!2d37.64507553629332!3d55.768397998257505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1599327648287!5m2!1sru!2sru"  allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0312758dc595ad97a35542b170af399a4199dfef47c07736d67a1fe19c8e5419&amp;source=constructor" width="100%" height="630" frameborder="0"></iframe> -->
         <!-- <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0312758dc595ad97a35542b170af399a4199dfef47c07736d67a1fe19c8e5419&amp;width=100%25&amp;height=630&amp;lang=ru_RU&amp;scroll=false"></script> -->
         <div class="footer__info">
@@ -471,13 +474,18 @@
                 в ближайшее время!</div>
         </div>
     </div>
+    <a href="#up" class="pageup">
+        <img src="icons/chevron-circle-up-solid.svg" alt="up">
+    </a>
     
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    
+    <script  src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
